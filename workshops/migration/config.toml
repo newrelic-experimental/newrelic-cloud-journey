@@ -1,0 +1,12 @@
+baseURL = "http://www.newrelic.com/"
+languageCode = "en-us"
+title = "New Relic Workshops"
+# Change the default theme to be use when building the site with Hugo
+theme = "hugo-theme-learn"
+
+[params]
+themeVariant = "newrelic"
+
+# For search functionality
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
